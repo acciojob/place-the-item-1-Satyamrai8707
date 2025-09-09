@@ -2,9 +2,9 @@
 
 .holder {
   display: flex;
-  justify-content: space-between; /* first left, last right, equal spacing */
-  flex-wrap: wrap; /* items move to next line if needed */
-  gap: 10px; /* optional spacing between rows when wrapped */
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  gap: 10px; 
 }
 
 .item {
@@ -12,5 +12,5 @@
   padding: 20px;
   margin: 5px 0;
   border: 1px solid #333;
-  flex: 0 0 auto; /* prevent squishing */
+  flex: 0 0 auto; 
 }
